@@ -20,16 +20,9 @@ ext {
 }
 
 dependencies {
-    // Spring Web
     implementation 'org.springframework.boot:spring-boot-starter-web'
-
-    // Eureka Client
     implementation 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-client'
-
-    // Spring Boot Actuator for health check
     implementation 'org.springframework.boot:spring-boot-starter-actuator'
-
-    // Test dependencies
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 

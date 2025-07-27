@@ -4,7 +4,41 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb9e4bed-152d-478c-8668-70138c75bb34" name="Changes" comment="week3 진영 실습" />
+    <list default="true" id="fb9e4bed-152d-478c-8668-70138c75bb34" name="Changes" comment="week3 진영 실습">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/msa-prj.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/msa-prj-client/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/msa-prj-client/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/msa-prj-client/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/msa-prj-client/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/msa-prj-client/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/msa-prj-client/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/msa-prj-client/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/msa-prj-client/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/msa-prj-client/src/main/java/com/k8s/msa_prj_client/MsaPrjClientApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/msa-prj-client/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/msa-prj-client/src/test/java/com/k8s/msa_prj_client/MsaPrjClientApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/msa-prj-server/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/msa-prj-server/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/msa-prj-server/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/msa-prj-server/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/msa-prj-server/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/msa-prj-server/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/msa-prj-server/.idea/msa-prj-server.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/msa-prj-server/msa-prj-server/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/msa-prj-server/msa-prj-server/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/msa-prj-server/msa-prj-server/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/msa-prj-server/msa-prj-server/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/msa-prj-server/msa-prj-server/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/msa-prj-server/msa-prj-server/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/msa-prj-server/msa-prj-server/src/main/java/com/k8s/msa_prj_server/MsaPrjServerApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/msa-prj-server/msa-prj-server/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/msa-prj-server/msa-prj-server/src/test/java/com/k8s/msa_prj_server/MsaPrjServerApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/msa-study" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,13 +49,14 @@
     <option name="RESET_MODE" value="MIXED" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
-  <component name="KubernetesApiProvider"><![CDATA[{
-  "isMigrated": true
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 0
-}]]></component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="30PFLEYqQ1BH3M3nUOQXDued7DU" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -30,7 +65,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "jinaen",
+    "git-widget-placeholder": "jy",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -57,7 +92,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1753521250590</updated>
-      <workItem from="1753521256844" duration="923000" />
+      <workItem from="1753521256844" duration="1428000" />
+      <workItem from="1753592740245" duration="1297000" />
     </task>
     <task id="LOCAL-00001" summary="week3 진영 실습">
       <option name="closed" value="true" />

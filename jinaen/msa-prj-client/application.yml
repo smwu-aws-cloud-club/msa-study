@@ -11,27 +11,19 @@ spring:
       server:
         webflux:
           routes:
-            - id: my-service
-              uri: http://localhost:8081
+            - id: gateway-test
+              #uri: lb://gateway-test
+              #{"timestamp":"2025-08-05T12:27:18.663+00:00","path":"/test","status":500,"error":"Internal Server Error","requestId":"fe38bd5d-1"}
+              uri: http://localhost:8081 #eureka에 등록된 서비스 이름
               predicates:
-                - Path=/my-service/**
+                - Path=/test/**
 
-      #Below is deprecated since Spring Cloud 2025
-      #it is recommended to use 'spring.cloud.gateway.server.webflux.routes'
-      #instead of spring.cloud.gateway.routes
-#      routes:
-#        - id: ex-service
-#          #uri: lb://order-service
-#          uri: https://example.org
-#          predicates:
-#            - Path=/ex/**
-#
 eureka:
   client:
     service-url:
-      defaultZone: http://localhost:8761/eureka/  # Eureka ??? URL? ?????.
-    register-with-eureka: true  # ? ???? Eureka ??? ????? ?????.
-    fetch-registry: true  # Eureka ????? ?? ??? ??? ????? ?????.
-    instance:
-      # ???? ???? instance id? ???? ???
-      instance-id: ${spring.application.name}:${spring.application.instance_id:${random.value}}
+      defaultZone: http://localhost:8761/eureka/  # Eureka 서버 URL
+    register-with-eureka: true  # 이 서비스를 Eureka 서버에 등록할지 여부
+    fetch-registry: true  # Eureka 서버에서 서비스 레지스트리 정보를 가져올지 여부
+  instance:
+    # 서비스의 instance id를 명시적으로 설정
+    instance-id: ${spring.application.name}:${spring.application.instance_id:${random.value}}

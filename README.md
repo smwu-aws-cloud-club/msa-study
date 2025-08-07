@@ -41,14 +41,14 @@
 
 ### 7/25 ~ 7/31
 - gateway
-  - spring cloud gateway 구조
+    - spring cloud gateway 구조
 - gateway 로 간단한 라우팅 실습
 <details>
   <summary>실행 예시</summary>
   <img width="1134" height="509" alt="Image" src="https://github.com/user-attachments/assets/9b4d03f9-f499-4ada-bd0e-f645a697003c" />
   `curl http://localhost:8080/test` ← 여기로 보내면 gateway-test에 대한 요청이 gateway를 통해 적절하게 오는지 확인하기
-
+  
   <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/7a909d35-7efd-414f-b1b7-a230c3b46c54" />
   gateway, gateway-test 모두 service registry에 등록되어 있어야 함
-
+  
 </details>

@@ -31,7 +31,7 @@
 
 ### 7/18 ~ 7/24
 - service registry - eureka
-    - eureka 구조 이해
+  - eureka 구조 이해
 - eureka server, eureka client 로 service registry 실습
 <details>
   <summary>실행 예시</summary>
